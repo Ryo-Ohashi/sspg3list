@@ -12,7 +12,7 @@ end function;
 function collect_ssgellnulls()
     null_set := {@ @};
     for j in Roots(SupersingularPolynomial(p),K) do
-        lam := Roots(256*(x^2-x+1)^3-j[1]*(x^2-x)^2,K)[1];
+        lam := Roots(256*(x^2-x+1)^3-j[1]*(x^2-x)^2,K)[1][1];
         E := EllipticCurve(x*(x-1)*(x-lam)); P := E![0,0]; Q := E![1,0]; R := E![lam,0];
         null := torsion_to_nullpoint(P,Q,R); null_set := null_set join {null};
     end for;
