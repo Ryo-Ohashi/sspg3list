@@ -1,8 +1,8 @@
-# Listing up superspecial genus-3 curves using isogeny graph
+# List up superspecial genus-3 curves using isogeny graph
 
 An implementation of the algorithm used in the paper "Computing Richelot isogeny graph of superspecial abelian threefolds" by Ryo Ohashi, Hiroshi Onuki, Momonari Kudo, Ryo Yoshizumi, and Koji Nuida.
 
-This code allows you listing up superspecial genus-3 curves in characteristic $p \geq 11$. For example, if you want to do that for $p = 97$, then please change the first line of file "main.m" to
+This code allows you listing up superspecial genus-3 curves in characteristic $p \geq 11$. For example, if you want to do that for $p = 97$, please change the first line of file "main.m" to
 
 ```
 p := 97;
