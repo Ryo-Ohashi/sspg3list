@@ -14,5 +14,5 @@ and execute
 load "main.m";
 ```
 
-The outputs are the Shioda invariants of hyperelliptic genus-3 curves, and the Dixmier-Ohno invariants of smooth plane quartics.
+The outputs are displayed as the Shioda invariants of hyperelliptic genus-3 curves, and the Dixmier-Ohno invariants of smooth plane quartics.
 If necessary, you can restore their explicit forms using built-in functions in Magma.
